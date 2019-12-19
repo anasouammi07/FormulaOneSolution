@@ -78,6 +78,7 @@
             // 
             // tabPageTeam
             // 
+            this.tabPageTeam.BackColor = System.Drawing.Color.IndianRed;
             this.tabPageTeam.Controls.Add(this.txtChassis);
             this.tabPageTeam.Controls.Add(this.txtTechChief);
             this.tabPageTeam.Controls.Add(this.txtSecondDriver);
@@ -100,150 +101,164 @@
             this.tabPageTeam.Size = new System.Drawing.Size(776, 535);
             this.tabPageTeam.TabIndex = 0;
             this.tabPageTeam.Text = "TEAM";
-            this.tabPageTeam.UseVisualStyleBackColor = true;
             // 
             // txtChassis
             // 
-            this.txtChassis.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtChassis.BackColor = System.Drawing.SystemColors.Info;
             this.txtChassis.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtChassis.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtChassis.Location = new System.Drawing.Point(265, 322);
+            this.txtChassis.Font = new System.Drawing.Font("Swis721 BlkCn BT", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtChassis.ForeColor = System.Drawing.Color.Black;
+            this.txtChassis.Location = new System.Drawing.Point(263, 356);
             this.txtChassis.Name = "txtChassis";
-            this.txtChassis.Size = new System.Drawing.Size(100, 15);
+            this.txtChassis.Size = new System.Drawing.Size(187, 16);
             this.txtChassis.TabIndex = 18;
             // 
             // txtTechChief
             // 
-            this.txtTechChief.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtTechChief.BackColor = System.Drawing.SystemColors.Info;
             this.txtTechChief.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTechChief.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTechChief.Location = new System.Drawing.Point(265, 280);
+            this.txtTechChief.Font = new System.Drawing.Font("Swis721 BlkCn BT", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTechChief.ForeColor = System.Drawing.Color.Black;
+            this.txtTechChief.Location = new System.Drawing.Point(263, 314);
             this.txtTechChief.Name = "txtTechChief";
-            this.txtTechChief.Size = new System.Drawing.Size(100, 15);
+            this.txtTechChief.Size = new System.Drawing.Size(187, 16);
             this.txtTechChief.TabIndex = 17;
             // 
             // txtSecondDriver
             // 
-            this.txtSecondDriver.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtSecondDriver.BackColor = System.Drawing.SystemColors.Info;
             this.txtSecondDriver.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSecondDriver.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSecondDriver.Location = new System.Drawing.Point(265, 236);
+            this.txtSecondDriver.Font = new System.Drawing.Font("Swis721 BlkCn BT", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSecondDriver.ForeColor = System.Drawing.Color.Black;
+            this.txtSecondDriver.Location = new System.Drawing.Point(263, 270);
             this.txtSecondDriver.Name = "txtSecondDriver";
-            this.txtSecondDriver.Size = new System.Drawing.Size(100, 15);
+            this.txtSecondDriver.Size = new System.Drawing.Size(187, 16);
             this.txtSecondDriver.TabIndex = 16;
             // 
             // txtFirstDriver
             // 
-            this.txtFirstDriver.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtFirstDriver.BackColor = System.Drawing.SystemColors.Info;
             this.txtFirstDriver.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtFirstDriver.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFirstDriver.Location = new System.Drawing.Point(265, 189);
+            this.txtFirstDriver.Font = new System.Drawing.Font("Swis721 BlkCn BT", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFirstDriver.ForeColor = System.Drawing.Color.Black;
+            this.txtFirstDriver.Location = new System.Drawing.Point(263, 223);
             this.txtFirstDriver.Name = "txtFirstDriver";
-            this.txtFirstDriver.Size = new System.Drawing.Size(100, 15);
+            this.txtFirstDriver.Size = new System.Drawing.Size(187, 16);
             this.txtFirstDriver.TabIndex = 15;
             // 
             // txtCountry
             // 
-            this.txtCountry.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtCountry.BackColor = System.Drawing.SystemColors.Info;
             this.txtCountry.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCountry.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCountry.Location = new System.Drawing.Point(265, 145);
+            this.txtCountry.Font = new System.Drawing.Font("Swis721 BlkCn BT", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCountry.ForeColor = System.Drawing.Color.Black;
+            this.txtCountry.Location = new System.Drawing.Point(263, 179);
             this.txtCountry.Name = "txtCountry";
-            this.txtCountry.Size = new System.Drawing.Size(100, 15);
+            this.txtCountry.Size = new System.Drawing.Size(187, 16);
             this.txtCountry.TabIndex = 14;
             // 
             // txtPowerUnit
             // 
-            this.txtPowerUnit.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtPowerUnit.BackColor = System.Drawing.SystemColors.Info;
             this.txtPowerUnit.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPowerUnit.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPowerUnit.Location = new System.Drawing.Point(265, 99);
+            this.txtPowerUnit.Font = new System.Drawing.Font("Swis721 BlkCn BT", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPowerUnit.ForeColor = System.Drawing.Color.Black;
+            this.txtPowerUnit.Location = new System.Drawing.Point(263, 133);
             this.txtPowerUnit.Name = "txtPowerUnit";
-            this.txtPowerUnit.Size = new System.Drawing.Size(100, 15);
+            this.txtPowerUnit.Size = new System.Drawing.Size(187, 16);
             this.txtPowerUnit.TabIndex = 12;
             // 
             // txtFullName
             // 
-            this.txtFullName.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtFullName.BackColor = System.Drawing.SystemColors.Info;
             this.txtFullName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtFullName.Font = new System.Drawing.Font("Segoe UI Symbol", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFullName.Location = new System.Drawing.Point(265, 61);
+            this.txtFullName.Font = new System.Drawing.Font("Swis721 BlkCn BT", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFullName.ForeColor = System.Drawing.Color.Black;
+            this.txtFullName.Location = new System.Drawing.Point(263, 95);
             this.txtFullName.Name = "txtFullName";
-            this.txtFullName.Size = new System.Drawing.Size(100, 15);
+            this.txtFullName.Size = new System.Drawing.Size(187, 16);
             this.txtFullName.TabIndex = 11;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(143, 233);
+            this.label8.Font = new System.Drawing.Font("Swis721 BlkCn BT", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(141, 267);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(103, 17);
+            this.label8.Size = new System.Drawing.Size(101, 19);
             this.label8.TabIndex = 10;
             this.label8.Text = "Second Driver";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(143, 186);
+            this.label7.Font = new System.Drawing.Font("Swis721 BlkCn BT", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(141, 220);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 17);
+            this.label7.Size = new System.Drawing.Size(83, 19);
             this.label7.TabIndex = 9;
             this.label7.Text = "First Driver";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(143, 323);
+            this.label6.Font = new System.Drawing.Font("Swis721 BlkCn BT", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(141, 357);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 17);
+            this.label6.Size = new System.Drawing.Size(59, 19);
             this.label6.TabIndex = 8;
             this.label6.Text = "Chassis";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(143, 277);
+            this.label5.Font = new System.Drawing.Font("Swis721 BlkCn BT", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(141, 311);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(109, 17);
+            this.label5.Size = new System.Drawing.Size(111, 19);
             this.label5.TabIndex = 7;
             this.label5.Text = "Technical Chief";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(143, 102);
+            this.label4.Font = new System.Drawing.Font("Swis721 BlkCn BT", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(141, 136);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 17);
+            this.label4.Size = new System.Drawing.Size(80, 19);
             this.label4.TabIndex = 6;
             this.label4.Text = "Power unit";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(143, 142);
+            this.label3.Font = new System.Drawing.Font("Swis721 BlkCn BT", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(141, 176);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 17);
+            this.label3.Size = new System.Drawing.Size(60, 19);
             this.label3.TabIndex = 5;
             this.label3.Text = "Country";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Symbol", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(143, 61);
+            this.label2.Font = new System.Drawing.Font("Swis721 BlkCn BT", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(141, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 17);
+            this.label2.Size = new System.Drawing.Size(75, 19);
             this.label2.TabIndex = 3;
             this.label2.Text = "Full Name";
             // 
             // listBoxTeam
             // 
+            this.listBoxTeam.BackColor = System.Drawing.Color.IndianRed;
             this.listBoxTeam.Dock = System.Windows.Forms.DockStyle.Left;
             this.listBoxTeam.FormattingEnabled = true;
             this.listBoxTeam.Location = new System.Drawing.Point(3, 28);
@@ -306,6 +321,7 @@
             this.stampaToolStripButton.Name = "stampaToolStripButton";
             this.stampaToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.stampaToolStripButton.Text = "&Stampa";
+            this.stampaToolStripButton.Click += new System.EventHandler(this.stampaToolStripButton_Click);
             // 
             // toolStripSeparator
             // 
@@ -379,6 +395,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.tabControlMain);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormMain";
             this.Text = "Formula One CRUD";
             this.Load += new System.EventHandler(this.FormMain_Load);

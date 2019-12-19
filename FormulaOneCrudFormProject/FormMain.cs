@@ -49,5 +49,11 @@ namespace FormulaOneCrudFormProject
             }
 
         }
+
+        private void stampaToolStripButton_Click(object sender, EventArgs e)
+        {
+            Utils.SerializeToCsv(teams, @".\Teams.csv"); 
+            Utils.SerializeToCsv(teams, @".\Teams.json");
+        }
     }
 }
